@@ -1,0 +1,21 @@
+.searchedusername{
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 20px;
+    align-self: center;
+    padding: 0px 10px;
+}
+.capture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#03101d;
+    width: 60px;
+    cursor: pointer;
+    height: 60px;
+    border-radius: 100%;
+}
+.sendBtn{
+    background-color:#03101d;
+    border: none;
+}

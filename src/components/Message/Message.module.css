@@ -1,0 +1,22 @@
+.msgLeft{
+    margin-right: auto;
+    background-color: #0b1426;
+    border-radius: 0 20px 20px 20px;
+}
+.msgRight,.msgLeft{
+    padding: 15px;
+    margin: 15px 0;
+}
+.msgRight{
+    margin-left: auto;
+    border-radius: 20px 0px 20px 20px;
+    background-color: #4b57c4;
+}
+.timestamp{
+    color: #a5a5a5;
+    font-size: 1rem;
+    text-align: end;
+}
+.uploadedImg{
+    width: 100%;
+}

@@ -1,0 +1,96 @@
+.signupContainer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 90vw;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* From https://css.glass */
+    background: rgba(0, 57, 98, 0.84);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.8px);
+    -webkit-backdrop-filter: blur(10.8px);
+    text-align: center;
+    color: #fff;
+}
+.link{
+    text-decoration: none;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.error{
+    color: red;
+    margin-bottom: 2px;
+    text-align: start;
+}
+.avatarContainer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 10px;
+}
+.uploadedImg{
+    border-radius: 10px;
+    object-fit: cover;
+}
+.avatar{
+    background-color: #0b1426!important;
+    padding: 15px 25px;
+    border-radius: 10px;
+    display: flex;
+    color: rgba(0, 57, 98, 0.84)!important;
+}
+.hiddenField{
+    display: none;
+}
+.uploadAvatar{
+    align-self: center;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+.link:hover{
+    cursor: pointer;
+}
+.uploadAvatar:hover{
+    color: #309fb3;
+    cursor: pointer;
+}
+.email,.password,.usrname{
+    margin-bottom: 20px;
+    color: #fff;
+    background-color: #0b1426!important;
+    padding:15px 10px!important;
+    border: none;
+    /* padding-block: 20%; */
+}
+.btn{
+    width: 75%;
+    background-color: #309fb3;
+    padding:15px 87px!important;
+    align-self: center;
+}
+@media (min-width : 578px) {
+    .btn{
+        width: 50%!important;
+    }
+}
+@media (min-width : 992px) {
+    .loginContainer{
+        min-width: 60vw;
+    }
+}
+@media (min-width: 1400px) {
+    .signupContainer{
+        min-width: 50vw;
+    }
+}

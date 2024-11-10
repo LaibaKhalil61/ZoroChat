@@ -1,0 +1,63 @@
+.loginContainer{
+    position: absolute;
+    top: 50%;
+    color: #fff;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 90vw;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* From https://css.glass */
+    background: rgba(0, 57, 98, 0.84);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.8px);
+    -webkit-backdrop-filter: blur(10.8px);
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.email,.password{
+    margin-bottom: 20px;
+    /* width: 75%!important; */
+    color: rgba(248, 249, 250, 0.84)!important;
+    background-color: #0b1426!important;
+    padding:15px 10px!important;
+    /* padding-block: 20%; */
+}
+.error{
+    color: red;
+    margin-bottom: 2px;
+    text-align: start;
+}
+.btn{
+    width: 75%;
+    background-color: #309fb3;
+    padding:15px 87px!important;
+    align-self: center;
+}
+@media (min-width : 578px) {
+    .btn{
+        width: 50%!important;
+    }
+}
+@media (min-width : 992px) {
+    .loginContainer{
+        min-width: 60vw;
+    }
+}
+@media (min-width: 1400px) {
+    .loginContainer{
+        min-width: 50vw;
+    }
+}
